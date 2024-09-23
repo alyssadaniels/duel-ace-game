@@ -24,7 +24,7 @@ const io = new Server(server, config);
 
 const port = process.env.PORT || 3000;
 
-const clientBuildPath = "../../client/dist";
+const clientBuildPath = "../client-dist";
 
 // set variables
 const gamesManager = new GamesManager();
