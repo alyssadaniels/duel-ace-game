@@ -7,14 +7,14 @@
 - Singleplayer - A player can play on their own against a computer
 - Private games - A player can host or join a private game, allowing friends to play against each other
 ## Frontend Tech Stack (`/client`)
-- Typescript
+- TypeScript
 - React
 - TailwindCSS
 - Socket.IO
 - Vitest (tests)
 - React Testing Library (tests)
 ## Backend Tech Stack (`/server`)
-- Typescript
+- TypeScript
 - Express.js
 - Socket.IO
 - Vitest (tests)
