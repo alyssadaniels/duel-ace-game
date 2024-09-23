@@ -22,7 +22,7 @@ const config =
 
 const io = new Server(server, config);
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const clientBuildPath = "../../client/dist";
 
