@@ -91,7 +91,7 @@ class GamesManager {
      */
     setStand(playerID) {
         // make sure game exists
-        if (this.#games[playerID]) {
+        if (!this.#games[playerID]) {
             return;
         }
         // stand

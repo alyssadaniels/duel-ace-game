@@ -102,7 +102,7 @@ export default class GamesManager {
      */
     setStand(playerID: string): void {
         // make sure game exists
-        if (this.#games[playerID]) {
+        if (!this.#games[playerID]) {
             return;
         }
 
