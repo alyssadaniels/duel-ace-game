@@ -22,7 +22,7 @@ const config = process.env.NODE_ENV === "production"
         },
     };
 const io = new socket_io_1.Server(server, config);
-const port = 3000;
+const port = process.env.PORT || 3000;
 const clientBuildPath = "../../client/dist";
 // set variables
 const gamesManager = new GamesManager_1.default();
